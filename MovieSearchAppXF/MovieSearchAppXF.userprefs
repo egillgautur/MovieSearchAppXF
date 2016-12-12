@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{FCBBD620-3D53-4534-9ABD-F1330EE576BC}|Default">
+  <MonoDevelop.Ide.ItemProperties.MovieSearchAppXF.Droid PreferredExecutionTarget="Android.fackoffson" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearchAppXF/Interfaces/IImageImplement.cs">
+    <Files>
+      <File FileName="MovieSearchAppXF.UWP/Package.appxmanifest" Line="17" Column="18" />
+      <File FileName="MovieSearchAppXF/Models/Movie.cs" Line="4" Column="34" />
+      <File FileName="MovieSearchAppXF/Models/Movies.cs" Line="6" Column="21" />
+      <File FileName="MovieSearchAppXF/Services/ApiService.cs" Line="14" Column="26" />
+      <File FileName="MovieSearchAppXF/Interfaces/IMovieDbImplement.cs" Line="8" Column="4" />
+      <File FileName="MovieSearchAppXF/Interfaces/IImageImplement.cs" Line="11" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MovieSearchAppXF.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8F408F6E-ECEB-48CA-89F8-DCEDDE43DC64" />
+</Properties>

@@ -1,0 +1,15 @@
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.iOS.exe.mdb
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.iOS.exe
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/MovieSearchAppXF.iOS.exe
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/MovieSearchAppXF.iOS.exe.mdb
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.dll.mdb

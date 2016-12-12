@@ -1,0 +1,12 @@
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile259.AssemblyAttribute.cs
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.App.xaml
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieSearchAppXFPage.xaml
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.App.xaml.g.cs
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieSearchAppXFPage.xaml.g.cs
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll.mdb
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.dll.mdb
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/Xamarin.Forms.Core.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/Xamarin.Forms.Platform.dll
+/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/Xamarin.Forms.Xaml.dll
