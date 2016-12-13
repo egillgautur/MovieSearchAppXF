@@ -2,9 +2,9 @@
 # [first argument, ignore] # /Library/Frameworks/Xamarin.iOS.framework/Versions/10.2.1.5/lib/mtouch/mtouch.exe
 /Library/Frameworks/Xamarin.iOS.framework/Versions/10.2.1.5/lib/mtouch/mtouch.exe \
 	--cache \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/mtouch-cache \
 	--sim \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.iOS.app \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.iOS.app \
 	--executable \
 	MovieSearchAppXF.iOS \
 	--fastdev \
@@ -20,7 +20,7 @@
 	--tls-provider=default \
 	--abi=x86_64 \
 	--symbollist \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
 	--dsym=no \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -31,15 +31,15 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
@@ -299,15 +299,19 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/DM.MovieApi.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/Newtonsoft.Json.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
-	/Users/gautur/Desktop/MovieSearchXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug//MovieSearchAppXF.iOS.exe \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug//MovieSearchAppXF.iOS.exe \

@@ -1,14 +1,51 @@
-﻿<Properties StartupConfiguration="{FCBBD620-3D53-4534-9ABD-F1330EE576BC}|Default">
+﻿<Properties StartupConfiguration="{5BFBCB6B-9FA5-45C3-B2AB-6FD655955C7B}|Default">
   <MonoDevelop.Ide.ItemProperties.MovieSearchAppXF.Droid PreferredExecutionTarget="Android.fackoffson" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearchAppXF/Interfaces/IImageImplement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.2-37/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
     <Files>
-      <File FileName="MovieSearchAppXF.UWP/Package.appxmanifest" Line="17" Column="18" />
-      <File FileName="MovieSearchAppXF/Models/Movie.cs" Line="4" Column="34" />
-      <File FileName="MovieSearchAppXF/Models/Movies.cs" Line="6" Column="21" />
-      <File FileName="MovieSearchAppXF/Services/ApiService.cs" Line="14" Column="26" />
+      <File FileName="MovieSearchAppXF.UWP/Package.appxmanifest" Line="33" Column="31" />
+      <File FileName="MovieSearchAppXF/Models/Movie.cs" Line="25" Column="46" />
+      <File FileName="MovieSearchAppXF/Models/Movies.cs" Line="14" Column="3" />
+      <File FileName="MovieSearchAppXF/Services/ApiService.cs" Line="19" Column="20" />
       <File FileName="MovieSearchAppXF/Interfaces/IMovieDbImplement.cs" Line="8" Column="4" />
-      <File FileName="MovieSearchAppXF/Interfaces/IImageImplement.cs" Line="11" Column="1" />
+      <File FileName="MovieSearchAppXF/Interfaces/IImageImplement.cs" Line="10" Column="1" />
+      <File FileName="MovieSearchAppXF/App.xaml.cs" Line="2" Column="21" />
+      <File FileName="MovieSearchAppXF/MovieListPage.xaml.cs" Line="22" Column="91" />
+      <File FileName="MovieSearchAppXF/SearchPage.cs" Line="11" Column="3" />
+      <File FileName="MovieSearchAppXF/Interfaces/PCLimageImplement.cs" Line="35" Column="4" />
+      <File FileName="MovieSearchAppXF.UWP/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="MovieSearchAppXF.UWP/App.xaml" Line="1" Column="1" />
+      <File FileName="MovieDownload/ImageDownloader.cs" Line="27" Column="48" />
+      <File FileName="MovieDownload/IImageStorage.cs" Line="1" Column="1" />
+      <File FileName="MovieDownload/StorageClient.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="17" Column="1" />
+      <File FileName="MovieSearchAppXF/App.xaml" Line="1" Column="1" />
+      <File FileName="MovieSearchAppXF/MovieListPage.xaml" Line="11" Column="21" />
+      <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieListPage.xaml.g.cs" Line="20" Column="48" />
+      <File FileName="MovieSearchAppXF/MovieDetailPage.xaml" Line="7" Column="1" />
+      <File FileName="MovieSearchAppXF/MovieDetailPage.xaml.cs" Line="12" Column="4" />
+      <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieDetailPage.xaml.g.cs" Line="20" Column="22" />
+      <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.2-37/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.Debugging.targets" Line="1" Column="1" />
+      <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.2-37/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieSearchAppXF" expanded="True">
+            <Node name="MovieDownload" expanded="True" />
+            <Node name="MovieSearchAppXF" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MovieDetailPage.xaml" expanded="True" />
+              <Node name="MovieListPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

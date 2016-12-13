@@ -133,6 +133,13 @@ class MonoPackageManager_Resources {
 		"System.Dynamic.Runtime.dll",
 		"System.Text.RegularExpressions.dll",
 		"System.Diagnostics.Tools.dll",
+		"DM.MovieApi.dll",
+		"System.Runtime.Serialization.Primitives.dll",
+		"Newtonsoft.Json.dll",
+		"System.Xml.XDocument.dll",
+		"System.Text.Encoding.dll",
+		"System.Text.Encoding.Extensions.dll",
+		"System.Net.Primitives.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

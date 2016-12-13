@@ -19,5 +19,10 @@ namespace MovieSearchAppXF.Models
 		public string Runtime { get; set; }
 
 		public string Overview { get; set; }
+
+		public override string ToString()
+		{
+			return this.Name + " " + this.ReleaseYear;
+		}
 	}
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using DM.MovieApi;
+﻿using DM.MovieApi;
 using DM.MovieApi.MovieDb.Movies;
 using DM.MovieApi.ApiResponse;
 using System.Threading.Tasks;
@@ -13,11 +12,11 @@ namespace MovieSearchAppXF.Services
 	{
 		private IImageImplement _imp;
 		private Movies _movies;
-		public ApiService(IImageImplement imp)
+		public ApiService(/*IImageImplement imp*/)
 		{
 			IMovieDbImplement sett = new IMovieDbImplement();
 			MovieDbFactory.RegisterSettings(sett);
-			this._imp = imp;
+			this._imp = null;
 			this._movies = new Movies();
 
 		}

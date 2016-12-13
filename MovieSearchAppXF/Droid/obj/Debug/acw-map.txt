@@ -490,6 +490,10 @@ Xamarin.Forms.Platform.Android.OpenGLViewRenderer/Renderer, Xamarin.Forms.Platfo
 Xamarin.Forms.Platform.Android.OpenGLViewRenderer+Renderer, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5b60ffeb829f638581ab2bb9b1a7f4f3f.OpenGLViewRenderer_Renderer
 Xamarin.Forms.Platform.Android.OpenGLViewRenderer.Renderer;md5b60ffeb829f638581ab2bb9b1a7f4f3f.OpenGLViewRenderer_Renderer
 xamarin.forms.platform.android.OpenGLViewRenderer_Renderer;md5b60ffeb829f638581ab2bb9b1a7f4f3f.OpenGLViewRenderer_Renderer
+Xamarin.Forms.Platform.Android.FormsSeekBar, Xamarin.Forms.Platform.Android;md5b60ffeb829f638581ab2bb9b1a7f4f3f.FormsSeekBar
+Xamarin.Forms.Platform.Android.FormsSeekBar, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5b60ffeb829f638581ab2bb9b1a7f4f3f.FormsSeekBar
+Xamarin.Forms.Platform.Android.FormsSeekBar;md5b60ffeb829f638581ab2bb9b1a7f4f3f.FormsSeekBar
+xamarin.forms.platform.android.FormsSeekBar;md5b60ffeb829f638581ab2bb9b1a7f4f3f.FormsSeekBar
 Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager, Xamarin.Forms.Platform.Android;md5270abb39e60627f0f200893b490a1ade.FormsViewPager
 Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5270abb39e60627f0f200893b490a1ade.FormsViewPager
 Xamarin.Forms.Platform.Android.AppCompat.FormsViewPager;md5270abb39e60627f0f200893b490a1ade.FormsViewPager

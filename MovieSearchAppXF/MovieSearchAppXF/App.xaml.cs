@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System.Collections.Generic;
+using Xamarin.Forms;
 
 namespace MovieSearchAppXF
 {
@@ -8,7 +9,8 @@ namespace MovieSearchAppXF
 		{
 			InitializeComponent();
 
-			MainPage = new MovieSearchAppXFPage();
+			var content = new SearchPage(new List<Models.Movie>());
+			MainPage = new NavigationPage(content);
 		}
 
 		protected override void OnStart()
