@@ -9,6 +9,11 @@ namespace MovieSearchAppXF
 	{
 		private ApiService _apiService = new ApiService();
 		private List<Models.Movie> _movieList;
+		private ActivityIndicator _indicator = new ActivityIndicator
+		{
+			HorizontalOptions = LayoutOptions.CenterAndExpand,
+			Color = Color.Gray
+		};
 
 		private Label _entryLabel = new Label
 		{
@@ -31,9 +36,15 @@ namespace MovieSearchAppXF
 
 		private async void OnDisplayNameButtonClicked(object sender, EventArgs args)
 		{
+			this._indicator.IsEnabled = true;
+			this._indicator.IsVisible = true;
+			this._indicator.IsRunning = true;
 			this._searchButton.IsEnabled = false;
 			this._movieList = await _apiService.getMovie(true, _searchEntry.Text);
 			this._searchButton.IsEnabled = true;
+			this._indicator.IsEnabled = false;
+			this._indicator.IsVisible = false;
+			this._indicator.IsRunning = false;
 			await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
 		}
 
@@ -52,6 +63,7 @@ namespace MovieSearchAppXF
 									   {
 										   new StackLayout { Children = { this._entryLabel, this._searchEntry, }, },
 										   this._searchButton,
+					this._indicator
 									   }
 			};
 
