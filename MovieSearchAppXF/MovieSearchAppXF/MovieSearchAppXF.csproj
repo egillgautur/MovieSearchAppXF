@@ -32,6 +32,12 @@
     <EmbeddedResource Include="MovieDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="TopRatedPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopularPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -50,6 +56,12 @@
     <Compile Include="Interfaces\PCLimageImplement.cs" />
     <Compile Include="MovieDetailPage.xaml.cs">
       <DependentUpon>MovieDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TopRatedPage.xaml.cs">
+      <DependentUpon>TopRatedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PopularPage.xaml.cs">
+      <DependentUpon>PopularPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

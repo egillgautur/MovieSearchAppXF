@@ -9,8 +9,24 @@ namespace MovieSearchAppXF
 		{
 			InitializeComponent();
 
-			var content = new SearchPage(new List<Models.Movie>());
-			MainPage = new NavigationPage(content);
+			var searchPage = new SearchPage(new List<Models.Movie>());
+			var searchNavigationPage = new NavigationPage(searchPage);
+			searchNavigationPage.Title = "Search";
+
+			var topRatedPage = new TopRatedPage();
+			var topRatedNavigationPage = new NavigationPage(topRatedPage);
+			topRatedNavigationPage.Title = "Top Rated";
+
+			var popularPage = new PopularPage();
+			var popularNavigationPage = new NavigationPage(popularPage);
+			popularNavigationPage.Title = "Popular";
+
+			var tabbedPage = new TabbedPage();
+			tabbedPage.Children.Add(searchNavigationPage);
+			tabbedPage.Children.Add(topRatedNavigationPage);
+			tabbedPage.Children.Add(popularNavigationPage);
+
+			this.MainPage = tabbedPage;
 		}
 
 		protected override void OnStart()
