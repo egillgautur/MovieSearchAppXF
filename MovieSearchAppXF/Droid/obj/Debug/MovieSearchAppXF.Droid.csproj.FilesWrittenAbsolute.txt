@@ -32,3 +32,6 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/bin/Debug/MovieSearchAppXF.dll.mdb
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/bin/Debug/DM.MovieApi.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/bin/Debug/Newtonsoft.Json.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/res/drawable/popular.png
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/res/drawable/search.png
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/res/drawable/toprated.png

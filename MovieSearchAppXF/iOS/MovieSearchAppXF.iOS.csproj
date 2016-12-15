@@ -127,7 +127,6 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="Renderers\CustomTabbedRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\search.png" />

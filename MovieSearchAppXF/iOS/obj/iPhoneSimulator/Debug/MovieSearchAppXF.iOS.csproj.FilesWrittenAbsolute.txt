@@ -2,6 +2,9 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/optimized/search.png
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/optimized/toprated.png
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/optimized/popular.png
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.iOS.exe.mdb
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.iOS.exe
@@ -15,6 +18,3 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.dll.mdb
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/DM.MovieApi.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
-/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/optimized/search.png
-/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/optimized/toprated.png
-/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/obj/iPhoneSimulator/Debug/optimized/popular.png
