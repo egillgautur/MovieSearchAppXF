@@ -35,7 +35,13 @@ namespace MovieSearchAppXF.Services
 				response = await movieApi.SearchByTitleAsync(searchString);
 			}
 			else {
-				response = await movieApi.GetTopRatedAsync(1);
+				if (searchString == "Popular")
+				{
+					response = await movieApi.GetPopularAsync();
+				}
+				else { 
+					response = await movieApi.GetTopRatedAsync();
+				}
 			}
 
 			//Iterate through all results that matched the search string

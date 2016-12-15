@@ -9,6 +9,7 @@ namespace MovieSearchAppXF
 	{
 		private ApiService _apiService = new ApiService();
 		private List<Models.Movie> _movieList;
+
 		private ActivityIndicator _indicator = new ActivityIndicator
 		{
 			HorizontalOptions = LayoutOptions.CenterAndExpand,
@@ -36,15 +37,13 @@ namespace MovieSearchAppXF
 
 		private async void OnDisplayNameButtonClicked(object sender, EventArgs args)
 		{
-			this._indicator.IsEnabled = true;
-			this._indicator.IsVisible = true;
+
 			this._indicator.IsRunning = true;
 			this._searchButton.IsEnabled = false;
 			this._movieList = await _apiService.getMovie(true, _searchEntry.Text);
 			this._searchButton.IsEnabled = true;
-			this._indicator.IsEnabled = false;
-			this._indicator.IsVisible = false;
 			this._indicator.IsRunning = false;
+
 			await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
 		}
 
@@ -69,10 +68,6 @@ namespace MovieSearchAppXF
 
 			this._searchButton.Clicked += this.OnDisplayNameButtonClicked;
 			this._searchEntry.Completed += this.OnDisplayNameButtonClicked;
-			/*this._searchButton.Clicked += async (sender, args) =>
-			{
-				await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
-			};*/
 		}
 
 	}

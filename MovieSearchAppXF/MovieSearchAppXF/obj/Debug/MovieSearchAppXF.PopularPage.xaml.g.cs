@@ -17,8 +17,12 @@ namespace MovieSearchAppXF {
     public partial class PopularPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ActivityIndicator myIndicator;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(PopularPage));
+            myIndicator = this.FindByName <global::Xamarin.Forms.ActivityIndicator>("myIndicator");
         }
     }
 }

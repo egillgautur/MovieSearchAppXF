@@ -13,11 +13,11 @@ namespace MovieSearchAppXF
 			var searchNavigationPage = new NavigationPage(searchPage);
 			searchNavigationPage.Title = "Search";
 
-			var topRatedPage = new TopRatedPage();
+			var topRatedPage = new TopRatedPage(new List<Models.Movie>());
 			var topRatedNavigationPage = new NavigationPage(topRatedPage);
 			topRatedNavigationPage.Title = "Top Rated";
 
-			var popularPage = new PopularPage();
+			var popularPage = new PopularPage(new List<Models.Movie>());
 			var popularNavigationPage = new NavigationPage(popularPage);
 			popularNavigationPage.Title = "Popular";
 
