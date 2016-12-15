@@ -27,7 +27,15 @@ namespace MovieSearchAppXF
 			this._movieList = await _apiService.getMovie(false, "");
 			myIndicator.IsRunning = false;
 			myIndicator.IsVisible = false;
-			await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
+			BindingContext = this._movieList;
+			//await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
+		}
+
+		protected override void OnDisappearing()
+		{
+			base.OnDisappearing();
+
+			this._movieList.Clear();
 		}
 
 		public TopRatedPage(List<Models.Movie> movieList) {

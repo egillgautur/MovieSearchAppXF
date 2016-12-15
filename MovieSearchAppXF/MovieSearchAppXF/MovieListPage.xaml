@@ -5,7 +5,7 @@
              Title="Movie list">
   <ListView x:Name="listview"
             ItemsSource="{Binding}" 
-            HasUnevenRows="True"
+            HasUnevenRows="true"
             ItemSelected="Listview_OnItemSelected">
     <ListView.ItemTemplate >
       <DataTemplate>
@@ -14,10 +14,11 @@
             <Grid.RowDefinitions>
               <RowDefinition Height="Auto"></RowDefinition>
               <RowDefinition Height="*"></RowDefinition>
+				<RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
               <ColumnDefinition Width="*"></ColumnDefinition>
-              <ColumnDefinition Width="40"></ColumnDefinition>
+              <ColumnDefinition Width="70"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Label Grid.Row="0" Grid.Column="0"
                    Text="{Binding Name}"
@@ -31,7 +32,10 @@
             <Label Grid.Row="2" Grid.Column="0"
                    Text="{Binding CastMembers}"
                    FontSize="Small"/>
-            <Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"
+            <Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="3"
+					Aspect="Fill"
+					VerticalOptions="FillAndExpand"
+					HorizontalOptions="FillAndExpand"
                    Source="{Binding ImageName}" />
           </Grid>
         </ViewCell>

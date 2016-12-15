@@ -9,7 +9,7 @@ namespace MovieSearchAppXF
 	public partial class PopularPage : ContentPage
 	{
 		private ApiService _apiService = new ApiService();
-		private FlowListView _flowListView = new FlowListView();
+		//private FlowListView _flowListView = new FlowListView();
 		private List<Models.Movie> _movieList;
 
 		public PopularPage(List<Models.Movie> movieList)
