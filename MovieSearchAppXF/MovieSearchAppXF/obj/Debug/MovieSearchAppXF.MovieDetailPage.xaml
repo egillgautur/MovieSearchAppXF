@@ -4,14 +4,28 @@
              x:Class="MovieSearchAppXF.MovieDetailPage"
              Title="Movie details">
 
-	<Grid Padding="10">
-			<Image Grid.Row="0"
+	<Grid Padding="10" RowSpacing="5">
+		
+		<Grid.RowDefinitions>
+              <RowDefinition Height="2*"></RowDefinition>
+              <RowDefinition Height="20"></RowDefinition>
+			  <RowDefinition Height="20"></RowDefinition>
+			  <RowDefinition Height="*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+			<Image Grid.Row="0"  
                    Source="{Binding ImageName}" />
-			<Label Grid.Row="1"
-				Text="{Binding Name}" />
-			<Label Grid.Row="2"
-				Text="{Binding InfoString}" />
-			<Label Grid.Row="3"
-				Text="{Binding Overview}" />
+			<Label Grid.Row="1" 
+				Text="{Binding Name}"
+				FontSize="Medium" />
+			<Label Grid.Row="2" 
+				Text="{Binding InfoString}"
+				FontSize="Small" />
+			<Label Grid.Row="3" 
+				Text="{Binding Overview}"
+				FontSize="Small" />
 	</Grid>
 </ContentPage>
