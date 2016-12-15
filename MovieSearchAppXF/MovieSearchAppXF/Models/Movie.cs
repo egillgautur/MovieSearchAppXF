@@ -18,14 +18,7 @@ namespace MovieSearchAppXF.Models
 
 		public string Overview { get; set; }
 
-		//public string ImagePath { get; set; }
-
 		public string InfoString { get; set; }
-
-		public Movie() {
-			//ImagePath = "http://image.tmdb.org/t/p/w92" + _item.PosterPath;
-			//InfoString =  this.ReleaseYear + " | " + this.Runtime + " | " + this.Genre;
-		}
 
 		public override string ToString()
 		{

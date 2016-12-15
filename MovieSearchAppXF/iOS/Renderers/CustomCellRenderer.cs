@@ -1,4 +1,4 @@
-﻿using Xamarin.Forms;
+﻿/*using Xamarin.Forms;
 
 using XFHelloWorld.iOS.Renderers;
 
@@ -22,4 +22,4 @@ namespace XFHelloWorld.iOS.Renderers
 			return cell;
 		}
 	}
-}
+}*/

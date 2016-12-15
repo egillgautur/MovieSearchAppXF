@@ -35,3 +35,8 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/res/drawable/popular.png
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/res/drawable/search.png
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/res/drawable/toprated.png
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/bin/Debug/FFImageLoading.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/bin/Debug/FFImageLoading.Platform.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/bin/Debug/FFImageLoading.Forms.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/bin/Debug/FFImageLoading.Forms.Droid.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/bin/Debug/DLToolkit.Forms.Controls.FlowListView.dll

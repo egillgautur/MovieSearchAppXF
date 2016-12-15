@@ -18,6 +18,10 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/FFImageLoading.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/FFImageLoading.Platform.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/FFImageLoading.Forms.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/FFImageLoading.Forms.Droid.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/MovieSearchAppXF.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.Net.Http.dll
@@ -42,6 +46,8 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.IO.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.Net.Primitives.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/DLToolkit.Forms.Controls.FlowListView.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/DM.MovieApi.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.Runtime.Serialization.Primitives.dll
@@ -52,4 +58,3 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.Text.Encoding.Extensions.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/Microsoft.CSharp.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/Mono.CSharp.dll
-/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/Droid/obj/Debug/android/assets/System.Net.Primitives.dll

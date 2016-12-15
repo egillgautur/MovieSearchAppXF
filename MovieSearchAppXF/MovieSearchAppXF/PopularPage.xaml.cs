@@ -31,14 +31,14 @@ namespace MovieSearchAppXF
 			//await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
 		}
 
-		private async void FlowListView_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+		private async void OnImageSelected(object sender, ItemTappedEventArgs e)
 		{
-			if (e.SelectedItem == null)
+			if (e.Item == null)
 			{
 				return;
 			}
 
-			await this.Navigation.PushAsync(new MovieDetailPage() { BindingContext = e.SelectedItem });
+			await this.Navigation.PushAsync(new MovieDetailPage() { BindingContext = e.Item});
 		}
 	}
 }

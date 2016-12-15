@@ -113,6 +113,10 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"FFImageLoading.dll",
+		"FFImageLoading.Platform.dll",
+		"FFImageLoading.Forms.dll",
+		"FFImageLoading.Forms.Droid.dll",
 		"MovieSearchAppXF.dll",
 		"System.Threading.dll",
 		"System.Collections.dll",
@@ -132,6 +136,8 @@ class MonoPackageManager_Resources {
 		"System.IO.dll",
 		"System.Dynamic.Runtime.dll",
 		"System.Text.RegularExpressions.dll",
+		"System.Net.Primitives.dll",
+		"DLToolkit.Forms.Controls.FlowListView.dll",
 		"System.Diagnostics.Tools.dll",
 		"DM.MovieApi.dll",
 		"System.Runtime.Serialization.Primitives.dll",
@@ -139,7 +145,6 @@ class MonoPackageManager_Resources {
 		"System.Xml.XDocument.dll",
 		"System.Text.Encoding.dll",
 		"System.Text.Encoding.Extensions.dll",
-		"System.Net.Primitives.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

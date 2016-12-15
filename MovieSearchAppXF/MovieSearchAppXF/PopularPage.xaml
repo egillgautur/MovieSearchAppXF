@@ -5,20 +5,18 @@
 			xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" >
 	<StackLayout>
 		<ActivityIndicator x:Name="myIndicator" Color="Black"/>
-		<flv:FlowListView FlowColumnCount="3" SeparatorVisibility="None" HasUnevenRows="false"
+		<flv:FlowListView FlowColumnCount="4" SeparatorVisibility="None" HasUnevenRows="true"
 			x:Name="flowlistview"
-			ItemSelected="FlowListView_OnItemSelected"
+			FlowItemTapped="OnImageSelected"
 			FlowItemsSource="{Binding}" >
 
 			<flv:FlowListView.FlowColumnTemplate>
 				<DataTemplate>
-					<StackLayout>
-						<ffimageloading:CachedImage HeightRequest="100" Aspect="AspectFill"
-								DownsampleHeight="100" DownsampleUseDipUnits="false"
+					<StackLayout Padding="10">
+						<ffimageloading:CachedImage HeightRequest="130" Aspect="AspectFill"
+								DownsampleToViewSize="true" DownsampleUseDipUnits="false"
 								LoadingPlaceholder="" ErrorPlaceholder=""
-								Source="{Binding ImageName}"/>
-						<Label HorizontalOptions="Fill" VerticalOptions="Fill" 
-							XAlign="Center" YAlign="Center"/>
+								Source="{Binding ImageName}" />
 					</StackLayout>
 				</DataTemplate>
 			</flv:FlowListView.FlowColumnTemplate>
