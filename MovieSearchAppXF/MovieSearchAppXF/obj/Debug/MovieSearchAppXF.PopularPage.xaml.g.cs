@@ -20,9 +20,13 @@ namespace MovieSearchAppXF {
         private global::Xamarin.Forms.ActivityIndicator myIndicator;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::DLToolkit.Forms.Controls.FlowListView flowlistview;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(PopularPage));
             myIndicator = this.FindByName <global::Xamarin.Forms.ActivityIndicator>("myIndicator");
+            flowlistview = this.FindByName <global::DLToolkit.Forms.Controls.FlowListView>("flowlistview");
         }
     }
 }

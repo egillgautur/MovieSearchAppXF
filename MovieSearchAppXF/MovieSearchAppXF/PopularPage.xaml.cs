@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DLToolkit.Forms.Controls;
 using MovieSearchAppXF.Services;
 using Xamarin.Forms;
 
@@ -8,13 +9,13 @@ namespace MovieSearchAppXF
 	public partial class PopularPage : ContentPage
 	{
 		private ApiService _apiService = new ApiService();
+		private FlowListView _flowListView = new FlowListView();
 		private List<Models.Movie> _movieList;
 
 		public PopularPage(List<Models.Movie> movieList)
 		{
 			InitializeComponent();
-
-
+			 
 			this._movieList = movieList;
 		}
 
@@ -26,7 +27,18 @@ namespace MovieSearchAppXF
 			this._movieList = await _apiService.getMovie(false, "Popular");
 			myIndicator.IsRunning = false;
 			myIndicator.IsVisible = false;
-			await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
+			BindingContext = this._movieList;
+			//await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
+		}
+
+		private async void FlowListView_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+		{
+			if (e.SelectedItem == null)
+			{
+				return;
+			}
+
+			await this.Navigation.PushAsync(new MovieDetailPage() { BindingContext = e.SelectedItem });
 		}
 	}
 }

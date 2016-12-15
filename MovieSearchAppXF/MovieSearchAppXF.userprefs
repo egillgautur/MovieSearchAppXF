@@ -1,14 +1,14 @@
-﻿<Properties StartupConfiguration="{FCBBD620-3D53-4534-9ABD-F1330EE576BC}|Default">
+﻿<Properties StartupConfiguration="{5BFBCB6B-9FA5-45C3-B2AB-6FD655955C7B}|Default">
   <MonoDevelop.Ide.ItemProperties.MovieSearchAppXF.Droid PreferredExecutionTarget="Android.fackoffson" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
     <Files>
       <File FileName="MovieSearchAppXF.UWP/Package.appxmanifest" Line="33" Column="31" />
-      <File FileName="MovieSearchAppXF/Models/Movie.cs" Line="25" Column="46" />
+      <File FileName="MovieSearchAppXF/Models/Movie.cs" Line="25" Column="4" />
       <File FileName="MovieSearchAppXF/Models/Movies.cs" Line="14" Column="3" />
       <File FileName="MovieSearchAppXF/Services/ApiService.cs" Line="44" Column="6" />
       <File FileName="MovieSearchAppXF/Interfaces/IMovieDbImplement.cs" Line="8" Column="4" />
       <File FileName="MovieSearchAppXF/Interfaces/IImageImplement.cs" Line="10" Column="1" />
-      <File FileName="MovieSearchAppXF/App.xaml.cs" Line="30" Column="28" />
+      <File FileName="MovieSearchAppXF/App.xaml.cs" Line="14" Column="19" />
       <File FileName="MovieSearchAppXF/MovieListPage.xaml.cs" Line="9" Column="4" />
       <File FileName="MovieSearchAppXF/SearchPage.cs" Line="42" Column="41" />
       <File FileName="MovieSearchAppXF/Interfaces/PCLimageImplement.cs" Line="35" Column="4" />
@@ -33,8 +33,8 @@
       <File FileName="MovieSearchAppXF/PopularPage.xaml.cs" Line="29" Column="4" />
       <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.TopRatedPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.PopularPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="iOS/Renderers/CustomTabbedRenderer.cs" Line="36" Column="4" />
-      <File FileName="Droid/MainActivity.cs" Line="25" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="29" Column="1" />
+      <File FileName="iOS/Renderers/CustomCellRenderer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

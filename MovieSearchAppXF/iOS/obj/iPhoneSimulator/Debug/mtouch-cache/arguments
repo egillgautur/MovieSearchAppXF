@@ -39,6 +39,18 @@
 	-r \
 	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/DLToolkit.Forms.Controls.FlowListView.2.0.2/lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/DLToolkit.Forms.Controls.FlowListView.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/WebP.Touch.1.0.2/lib/Xamarin.iOS10/WebP.Touch.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.FFImageLoading.2.2.5/lib/Xamarin.iOS10/FFImageLoading.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.FFImageLoading.2.2.5/lib/Xamarin.iOS10/FFImageLoading.Platform.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.FFImageLoading.Forms.2.2.5/lib/Xamarin.iOS10/FFImageLoading.Forms.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.FFImageLoading.Forms.2.2.5/lib/Xamarin.iOS10/FFImageLoading.Forms.Touch.dll \
+	-r \
 	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
@@ -306,6 +318,18 @@
 	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
 	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.Forms.2.3.3.175/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/DLToolkit.Forms.Controls.FlowListView.2.0.2/lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/DLToolkit.Forms.Controls.FlowListView.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/WebP.Touch.1.0.2/lib/Xamarin.iOS10/WebP.Touch.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.FFImageLoading.2.2.5/lib/Xamarin.iOS10/FFImageLoading.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.FFImageLoading.2.2.5/lib/Xamarin.iOS10/FFImageLoading.Platform.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.FFImageLoading.Forms.2.2.5/lib/Xamarin.iOS10/FFImageLoading.Forms.dll \
+	-r \
+	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/packages/Xamarin.FFImageLoading.Forms.2.2.5/lib/Xamarin.iOS10/FFImageLoading.Forms.Touch.dll \
 	-r \
 	/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll \
 	-r \

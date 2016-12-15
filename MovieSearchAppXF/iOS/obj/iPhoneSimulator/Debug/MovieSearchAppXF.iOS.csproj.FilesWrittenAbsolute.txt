@@ -18,3 +18,9 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/MovieSearchAppXF.dll.mdb
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/DM.MovieApi.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/DLToolkit.Forms.Controls.FlowListView.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/WebP.Touch.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Platform.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/iOS/bin/iPhoneSimulator/Debug/FFImageLoading.Forms.Touch.dll

@@ -5,15 +5,13 @@
              Title="Movie details">
 
 	<Grid Padding="10">
-			<Label Grid.Row="0"
-				Text="{Binding Name}" />
+			<Image Grid.Row="0"
+                   Source="{Binding ImageName}" />
 			<Label Grid.Row="1"
-				Text="{Binding ReleaseYear}" />
+				Text="{Binding Name}" />
 			<Label Grid.Row="2"
-				Text="{Binding Genre}" />
+				Text="{Binding InfoString}" />
 			<Label Grid.Row="3"
-				Text="{Binding Runtime}" />
-			<Label Grid.Row="4"
 				Text="{Binding Overview}" />
 	</Grid>
 </ContentPage>

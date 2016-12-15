@@ -1,6 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MovieSearchAppXF.PopularPage">
-	<ContentPage.Content>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			x:Class="MovieSearchAppXF.PopularPage"
+			xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView" 
+			xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" >
+	<StackLayout>
 		<ActivityIndicator x:Name="myIndicator" Color="Black"/>
-	</ContentPage.Content>
+		<flv:FlowListView FlowColumnCount="3" SeparatorVisibility="None" HasUnevenRows="false"
+			x:Name="flowlistview"
+			ItemSelected="FlowListView_OnItemSelected"
+			FlowItemsSource="{Binding}" >
+
+			<flv:FlowListView.FlowColumnTemplate>
+				<DataTemplate>
+					<StackLayout>
+						<ffimageloading:CachedImage HeightRequest="100" Aspect="AspectFill"
+								DownsampleHeight="100" DownsampleUseDipUnits="false"
+								LoadingPlaceholder="" ErrorPlaceholder=""
+								Source="{Binding ImageName}"/>
+						<Label HorizontalOptions="Fill" VerticalOptions="Fill" 
+							XAlign="Center" YAlign="Center"/>
+					</StackLayout>
+				</DataTemplate>
+			</flv:FlowListView.FlowColumnTemplate>
+
+		</flv:FlowListView>	
+	</StackLayout>
 </ContentPage>

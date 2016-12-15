@@ -19,3 +19,6 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/DLToolkit.Forms.Controls.FlowListView.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/FFImageLoading.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/FFImageLoading.Platform.dll
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/FFImageLoading.Forms.dll

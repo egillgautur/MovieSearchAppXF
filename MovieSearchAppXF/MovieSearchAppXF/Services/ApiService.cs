@@ -10,13 +10,13 @@ namespace MovieSearchAppXF.Services
 {
 	public class ApiService
 	{
-		private IImageImplement _imp;
+		//private IImageImplement _imp;
 		private Movies _movies;
 		public ApiService(/*IImageImplement imp*/)
 		{
 			IMovieDbImplement sett = new IMovieDbImplement();
 			MovieDbFactory.RegisterSettings(sett);
-			this._imp = null;
+			//this._imp = null;
 			this._movies = new Movies();
 
 		}
@@ -47,7 +47,7 @@ namespace MovieSearchAppXF.Services
 			//Iterate through all results that matched the search string
 			foreach (var item in response.Results)
 			{
-				string path = "";
+				string path = "http://image.tmdb.org/t/p/w92";
 				string castMembersString = "";
 				string genreString = "";
 				string runtimeString = "";
@@ -103,10 +103,12 @@ namespace MovieSearchAppXF.Services
 					overviewString = detailsResponse.Item.Overview;
 				}
 
-				if (_imp != null)
-				{
-					path = await _imp.getImage(item.PosterPath);
-				}
+				/*	if (_imp != null)
+					{
+						path = await _imp.getImage(item.PosterPath);
+					}*/
+
+				path += item.PosterPath;
 
 				var movie = new Models.Movie()
 				{
@@ -116,7 +118,8 @@ namespace MovieSearchAppXF.Services
 					CastMembers = castMembersString,
 					Genre = genreString,
 					Runtime = runtimeString,
-					Overview = overviewString
+					Overview = overviewString,
+					InfoString = item.ReleaseDate.Year + " | " + runtimeString + " | " + genreString
 				};
 				this._movies.movieList.Add(movie);
 			}

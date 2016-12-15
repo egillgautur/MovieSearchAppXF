@@ -14,14 +14,12 @@ namespace MovieSearchAppXF
 				Icon = "search.png",
 				Title = "Search"
 			};
-			searchNavigationPage.Title = "Search";
 
 			var topRatedPage = new TopRatedPage(new List<Models.Movie>());
 			var topRatedNavigationPage = new NavigationPage(topRatedPage) { 
 				Icon = "toprated.png",
 				Title = "Top Rated"
 			};
-			topRatedNavigationPage.Title = "Top Rated";
 
 			var popularPage = new PopularPage(new List<Models.Movie>());
 			var popularNavigationPage = new NavigationPage(popularPage)
@@ -29,7 +27,6 @@ namespace MovieSearchAppXF
 				Icon = "popular.png",
 				Title = "Most Popular",
 			};
-			popularNavigationPage.Title = "Popular";
 
 			var tabbedPage = new TabbedPage();
 			tabbedPage.Children.Add(searchNavigationPage);
