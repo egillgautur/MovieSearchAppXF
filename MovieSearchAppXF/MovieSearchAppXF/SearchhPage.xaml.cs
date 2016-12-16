@@ -35,11 +35,13 @@ namespace MovieSearchAppXF
 
 		private async void OnSearchButtonClicked(object sender, EventArgs args)
 		{
+			listview.ItemsSource = null;
 			listview.IsVisible = false;
 			indicator.IsRunning = true;
 			indicator.IsVisible = true;
 			this._movieList = await _apiService.getMovie(true, searchEntry.Text);
 			BindingContext = this._movieList;
+			listview.ItemsSource = this._movieList;
 			indicator.IsRunning = false;
 			indicator.IsVisible = false;
 			listview.IsVisible = true;
