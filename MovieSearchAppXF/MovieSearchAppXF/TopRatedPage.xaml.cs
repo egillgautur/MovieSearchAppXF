@@ -22,11 +22,13 @@ namespace MovieSearchAppXF
 
 		private async void loadData()
 		{
+			listview.ItemsSource = null;
 			listview.IsVisible = false;
 			myIndicator.IsRunning = true;
 			myIndicator.IsVisible = true;
 			this._movieList = await _apiService.getMovie(false, "");
 			BindingContext = this._movieList;
+			listview.ItemsSource = this._movieList;
 			listview.IsVisible = true;
 			myIndicator.IsVisible = false;
 			myIndicator.IsRunning = false;

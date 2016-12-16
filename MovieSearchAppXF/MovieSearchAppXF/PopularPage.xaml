@@ -3,7 +3,7 @@
 			x:Class="MovieSearchAppXF.PopularPage"
 			xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView" 
 			xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" >
-	<StackLayout>
+	<StackLayout BackgroundColor="Gray">
 		<ActivityIndicator x:Name="myIndicator" Color="White"
 			BackgroundColor="Gray"/>
 		<flv:FlowListView FlowColumnCount="4" SeparatorVisibility="None" HasUnevenRows="true"
@@ -11,7 +11,7 @@
 			FlowItemTapped="OnImageSelected"
 			FlowItemsSource="{Binding}"
 			IsPullToRefreshEnabled="true"
-				BackgroundColor="Gray">
+			BackgroundColor="Gray">
 
 			<flv:FlowListView.FlowColumnTemplate>
 				<DataTemplate>
