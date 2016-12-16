@@ -4,16 +4,18 @@
 		xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
 		x:Class="MovieSearchAppXF.SearchhPage">
 	<ContentPage.Content>
-		<StackLayout>
-			<Label Text="Enter a movie name:" HorizontalOptions="Start" x:Name="entryLabel" />
+		<StackLayout BackgroundColor="Gray" >
+			<Label Text="Enter a movie name:" HorizontalOptions="Center" x:Name="entryLabel" TextColor="White" Margin="3" />
 			<Label Text="" x:Name="displayLabel" />
-			<SearchBar Placeholder="Movie.." HorizontalOptions="Fill" x:Name="searchEntry" />
-			<ActivityIndicator HorizontalOptions="CenterAndExpand" Color="Black" x:Name="indicator" />
+			<SearchBar Placeholder="Movie.." HorizontalOptions="Fill" x:Name="searchEntry" BackgroundColor="Gray" />
+			<ActivityIndicator HorizontalOptions="CenterAndExpand" Color="White" x:Name="indicator" />
 			<ListView x:Name="listview"
 	            ItemsSource="{Binding}" 
 	            HasUnevenRows="true"
 	            ItemSelected="Listview_OnItemSelected"
-				IsVisible="false" >
+				IsVisible="false"
+				BackgroundColor="Gray"
+				SeparatorColor="Black" >
 			    <ListView.ItemTemplate >
 			      <DataTemplate>
 			        <ViewCell>
@@ -31,14 +33,16 @@
 			                   Text="{Binding Name}"
 			                   FontAttributes="Bold"
 			                   FontSize="Medium"
-			                   TextColor="#1f03e1"/>
+			                   TextColor="White"/>
 						<Label Grid.Row="1" Grid.Column="0"
 								Text="{Binding ReleaseYear}"
 								FontAttributes="Bold"
-								FontSize="Medium" />
+								FontSize="Medium" 
+									TextColor="White"/>
 			            <Label Grid.Row="2" Grid.Column="0"
 			                   Text="{Binding CastMembers}"
-			                   FontSize="Small"/>
+			                   FontSize="Small"
+									TextColor="White"/>
 			             <ffimageloading:CachedImage Grid.Row="0" Grid.Column="1" Grid.RowSpan="3"
 									HeightRequest="100" Aspect="AspectFill"
 									DownsampleToViewSize="true" DownsampleUseDipUnits="false"
@@ -46,7 +50,6 @@
 									Source="{Binding ImageName}" />
 			          </Grid>
 			        </ViewCell>
-			        
 			      </DataTemplate>
 			    </ListView.ItemTemplate>
 			  </ListView >

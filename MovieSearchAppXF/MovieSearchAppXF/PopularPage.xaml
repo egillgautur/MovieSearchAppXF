@@ -4,12 +4,14 @@
 			xmlns:flv="clr-namespace:DLToolkit.Forms.Controls;assembly=DLToolkit.Forms.Controls.FlowListView" 
 			xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" >
 	<StackLayout>
-		<ActivityIndicator x:Name="myIndicator" Color="Black"/>
+		<ActivityIndicator x:Name="myIndicator" Color="White"
+			BackgroundColor="Gray"/>
 		<flv:FlowListView FlowColumnCount="4" SeparatorVisibility="None" HasUnevenRows="true"
 			x:Name="flowlistview"
 			FlowItemTapped="OnImageSelected"
 			FlowItemsSource="{Binding}"
-			IsPullToRefreshEnabled="true" >
+			IsPullToRefreshEnabled="true"
+				BackgroundColor="Gray">
 
 			<flv:FlowListView.FlowColumnTemplate>
 				<DataTemplate>

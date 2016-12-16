@@ -6,7 +6,9 @@
   <ListView x:Name="listview"
             ItemsSource="{Binding}" 
             HasUnevenRows="true"
-            ItemSelected="Listview_OnItemSelected" >
+            ItemSelected="Listview_OnItemSelected"
+			SeparatorColor = "Black"
+			BackgroundColor="Gray">
     <ListView.ItemTemplate >
       <DataTemplate>
         <ViewCell>
@@ -24,14 +26,16 @@
                    Text="{Binding Name}"
                    FontAttributes="Bold"
                    FontSize="Medium"
-                   TextColor="#1f03e1"/>
+                   TextColor="White"/>
 			<Label Grid.Row="1" Grid.Column="0"
 					Text="{Binding ReleaseYear}"
 					FontAttributes="Bold"
-					FontSize="Medium" />
+					FontSize="Medium"
+							TextColor="White"/>
             <Label Grid.Row="2" Grid.Column="0"
                    Text="{Binding CastMembers}"
-                   FontSize="Small"/>
+                   FontSize="Small"
+							TextColor="White"/>
             <Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="3"
 					Aspect="Fill"
 					VerticalOptions="FillAndExpand"

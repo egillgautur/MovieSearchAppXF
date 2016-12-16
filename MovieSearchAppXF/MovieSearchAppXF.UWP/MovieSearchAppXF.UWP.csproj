@@ -133,6 +133,11 @@
       <Name>XFHelloWorld</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets\popular.png" />
+    <BundleResource Include="Assets\search.png" />
+    <BundleResource Include="Assets\toprated.png" />
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

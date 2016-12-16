@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace XFHelloWorld.UWP
+namespace MovieSearchAppXF.UWP
 {
     public sealed partial class MainPage
     {
@@ -21,7 +21,7 @@ namespace XFHelloWorld.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new XFHelloWorld.App());
+            LoadApplication(new MovieSearchAppXF.App());
         }
     }
 }

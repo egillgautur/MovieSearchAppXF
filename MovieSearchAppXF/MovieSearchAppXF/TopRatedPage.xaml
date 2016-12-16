@@ -3,13 +3,15 @@
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 			 xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
 			 x:Class="MovieSearchAppXF.TopRatedPage">
-		<StackLayout>
-				<ActivityIndicator x:Name="myIndicator" Color="Black"/>
+		<StackLayout BackgroundColor="Gray">
+				<ActivityIndicator x:Name="myIndicator" Color="White"/>
 			  <ListView x:Name="listview"
 			            ItemsSource="{Binding}" 
 			            HasUnevenRows="true"
 			            ItemSelected="Listview_OnItemSelected"
-						IsPullToRefreshEnabled="true">
+						IsPullToRefreshEnabled="true"
+				SeparatorColor="Black"
+				BackgroundColor="Gray">
 			    <ListView.ItemTemplate >
 			      <DataTemplate>
 	
@@ -28,14 +30,16 @@
 			                   Text="{Binding Name}"
 			                   FontAttributes="Bold"
 			                   FontSize="Medium"
-			                   TextColor="#1f03e1"/>
+			                   TextColor="White"/>
 						<Label Grid.Row="1" Grid.Column="0"
 								Text="{Binding ReleaseYear}"
 								FontAttributes="Bold"
-								FontSize="Medium" />
+								FontSize="Medium" 
+								TextColor ="White"/>
 			            <Label Grid.Row="2" Grid.Column="0"
 			                   Text="{Binding CastMembers}"
-			                   FontSize="Small"/>
+			                   FontSize="Small"
+								TextColor="White"/>
 			            <ffimageloading:CachedImage Grid.Row="0" Grid.Column="1" Grid.RowSpan="3"
 								HeightRequest="100" Aspect="AspectFill"
 								DownsampleToViewSize="true" DownsampleUseDipUnits="false"
