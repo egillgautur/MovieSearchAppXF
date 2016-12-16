@@ -10,14 +10,12 @@ namespace MovieSearchAppXF.Services
 {
 	public class ApiService
 	{
-		//private IImageImplement _imp;
 		private Movies _movies;
-		public ApiService(/*IImageImplement imp*/)
+		public ApiService()
 		{
 			IMovieDbImplement sett = new IMovieDbImplement();
 			MovieDbFactory.RegisterSettings(sett);
 			this._movies = new Movies();
-
 		}
 
 		public async Task<List<Models.Movie>> getMovie(bool searchValue, string searchString)
@@ -25,7 +23,6 @@ namespace MovieSearchAppXF.Services
 
 			//Clear our movie list so it is empty before we search for movies
 			this._movies.movieList.Clear();
-
 
 			var movieApi = MovieDbFactory.Create<IApiMovieRequest>().Value;
 			ApiSearchResponse<MovieInfo> response;
@@ -43,18 +40,12 @@ namespace MovieSearchAppXF.Services
 				}
 			}
 
-			/*if (response.Results == null) {
-				return await getMovie(searchValue, searchString);
-			}*/
-
-
-
 			if (response.Results != null)
 			{
 				//Iterate through all results that matched the search string
 				foreach (var item in response.Results)
 				{
-					string path = "http://image.tmdb.org/t/p/w92";
+					string path = "http://image.tmdb.org/t/p/w185";
 					string castMembersString = "";
 					string genreString = "";
 					string runtimeString = "";
@@ -118,11 +109,6 @@ namespace MovieSearchAppXF.Services
 							runtimeString = detailsResponse.Item.Runtime + " min";
 						}
 					}
-
-					/*	if (_imp != null)
-						{
-							path = await _imp.getImage(item.PosterPath);
-						}*/
 
 					path += item.PosterPath;
 

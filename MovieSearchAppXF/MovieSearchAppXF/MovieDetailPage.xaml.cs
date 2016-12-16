@@ -7,7 +7,6 @@ namespace MovieSearchAppXF
 {
 	public partial class MovieDetailPage : ContentPage
 	{
-		//private List<Models.Movie> _movieList;
 		public MovieDetailPage()
 		{
 			this.InitializeComponent();

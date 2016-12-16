@@ -17,12 +17,8 @@ namespace MovieSearchAppXF {
     public partial class MovieListPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView listview;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MovieListPage));
-            listview = this.FindByName <global::Xamarin.Forms.ListView>("listview");
         }
     }
 }

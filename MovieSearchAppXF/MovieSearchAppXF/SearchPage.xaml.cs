@@ -5,10 +5,23 @@ using Xamarin.Forms;
 
 namespace MovieSearchAppXF
 {
-	public partial class TopRatedPage : ContentPage
+	public partial class SearchPage : ContentPage
 	{
-		private ApiService _apiService = new ApiService();
 		private List<Models.Movie> _movieList;
+		private ApiService _apiService;
+
+		public SearchPage(List<Models.Movie> movieList)
+		{
+			InitializeComponent();
+
+			this._movieList = movieList;
+			this._apiService = new ApiService();
+
+			searchEntry.SearchCommand = new Command(() =>
+			{
+				OnSearchButtonClicked(null, null);
+			});
+		}
 
 		private async void Listview_OnItemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
@@ -21,32 +34,19 @@ namespace MovieSearchAppXF
 			await this.Navigation.PushAsync(new MovieDetailPage() { BindingContext = e.SelectedItem });
 		}
 
-		private async void loadData()
+		private async void OnSearchButtonClicked(object sender, EventArgs args)
 		{
 			listview.ItemsSource = null;
 			listview.IsVisible = false;
-			myIndicator.IsRunning = true;
-			myIndicator.IsVisible = true;
-			this._movieList = await _apiService.getMovie(false, "");
+			indicator.IsRunning = true;
+			indicator.IsVisible = true;
+			this._movieList = await _apiService.getMovie(true, searchEntry.Text);
 			BindingContext = this._movieList;
 			listview.ItemsSource = this._movieList;
+			indicator.IsRunning = false;
+			indicator.IsVisible = false;
 			listview.IsVisible = true;
-			myIndicator.IsVisible = false;
-			myIndicator.IsRunning = false;
 		}
 
-		public TopRatedPage(List<Models.Movie> movieList) {
-			InitializeComponent();
-
-			this._movieList = movieList;
-
-			loadData();
-
-			listview.RefreshCommand = new Command(() =>
-			{
-				loadData();
-				listview.IsRefreshing = false;
-			});
-		}
 	}
 }
