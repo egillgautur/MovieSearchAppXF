@@ -6,7 +6,7 @@
   <ListView x:Name="listview"
             ItemsSource="{Binding}" 
             HasUnevenRows="true"
-            ItemSelected="Listview_OnItemSelected">
+            ItemSelected="Listview_OnItemSelected" >
     <ListView.ItemTemplate >
       <DataTemplate>
         <ViewCell>

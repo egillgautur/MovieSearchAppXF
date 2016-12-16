@@ -35,16 +35,31 @@ namespace MovieSearchAppXF
 			HorizontalOptions = LayoutOptions.Fill,
 		};
 
-		private async void OnDisplayNameButtonClicked(object sender, EventArgs args)
+		private Label _displayLabel = new Label
+		{
+			Text = string.Empty,
+			FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
+		};
+
+		private async void OnSearchButtonClicked(object sender, EventArgs args)
 		{
 
 			this._indicator.IsRunning = true;
 			this._searchButton.IsEnabled = false;
-			this._movieList = await _apiService.getMovie(true, _searchEntry.Text);
-			this._searchButton.IsEnabled = true;
-			this._indicator.IsRunning = false;
+			if (String.IsNullOrEmpty(this._searchEntry.Text))
+			{
+				this._displayLabel.Text = "Please enter a word in a movie!";
+				this._searchButton.IsEnabled = true;
+				this._indicator.IsRunning = false;
+			}
+			else {
+				this._displayLabel.Text = String.Empty;
+				this._movieList = await _apiService.getMovie(true, _searchEntry.Text);
+				this._searchButton.IsEnabled = true;
+				this._indicator.IsRunning = false;
 
-			await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
+				await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
+			}
 		}
 
 		public SearchPage(List<Models.Movie> movieList)
@@ -62,12 +77,13 @@ namespace MovieSearchAppXF
 									   {
 										   new StackLayout { Children = { this._entryLabel, this._searchEntry, }, },
 										   this._searchButton,
-					this._indicator
+										   this._indicator,
+										   this._displayLabel
 									   }
 			};
 
-			this._searchButton.Clicked += this.OnDisplayNameButtonClicked;
-			this._searchEntry.Completed += this.OnDisplayNameButtonClicked;
+			this._searchButton.Clicked += this.OnSearchButtonClicked;
+			this._searchEntry.Completed += this.OnSearchButtonClicked;
 		}
 
 	}

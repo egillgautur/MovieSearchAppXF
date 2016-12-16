@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{5BFBCB6B-9FA5-45C3-B2AB-6FD655955C7B}|Default">
   <MonoDevelop.Ide.ItemProperties.MovieSearchAppXF.Droid PreferredExecutionTarget="Android.fackoffson" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearchAppXF/Services/ApiService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieSearchAppXF/SearchhPage.xaml">
     <Files>
       <File FileName="MovieSearchAppXF.UWP/Package.appxmanifest" Line="33" Column="31" />
-      <File FileName="MovieSearchAppXF/Models/Movie.cs" Line="23" Column="3" />
+      <File FileName="MovieSearchAppXF/Models/Movie.cs" Line="19" Column="39" />
       <File FileName="MovieSearchAppXF/Models/Movies.cs" Line="14" Column="3" />
-      <File FileName="MovieSearchAppXF/Services/ApiService.cs" Line="97" Column="28" />
+      <File FileName="MovieSearchAppXF/Services/ApiService.cs" Line="49" Column="5" />
       <File FileName="MovieSearchAppXF/Interfaces/IMovieDbImplement.cs" Line="8" Column="4" />
       <File FileName="MovieSearchAppXF/Interfaces/IImageImplement.cs" Line="10" Column="1" />
-      <File FileName="MovieSearchAppXF/App.xaml.cs" Line="14" Column="19" />
-      <File FileName="MovieSearchAppXF/MovieListPage.xaml.cs" Line="9" Column="4" />
-      <File FileName="MovieSearchAppXF/SearchPage.cs" Line="42" Column="41" />
+      <File FileName="MovieSearchAppXF/App.xaml.cs" Line="16" Column="6" />
+      <File FileName="MovieSearchAppXF/MovieListPage.xaml.cs" Line="22" Column="3" />
+      <File FileName="MovieSearchAppXF/SearchPage.cs" Line="65" Column="33" />
       <File FileName="MovieSearchAppXF/Interfaces/PCLimageImplement.cs" Line="35" Column="4" />
       <File FileName="MovieSearchAppXF.UWP/MainPage.xaml" Line="1" Column="1" />
       <File FileName="MovieSearchAppXF.UWP/App.xaml" Line="1" Column="1" />
@@ -20,22 +20,47 @@
       <File FileName="iOS/Main.cs" Line="17" Column="1" />
       <File FileName="iOS/AppDelegate.cs" Line="7" Column="1" />
       <File FileName="MovieSearchAppXF/App.xaml" Line="4" Column="43" />
-      <File FileName="MovieSearchAppXF/MovieListPage.xaml" Line="34" Column="13" />
-      <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieListPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="MovieSearchAppXF/MovieDetailPage.xaml" Line="12" Column="22" />
+      <File FileName="MovieSearchAppXF/MovieListPage.xaml" Line="29" Column="1" />
+      <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieListPage.xaml.g.cs" Line="20" Column="48" />
+      <File FileName="MovieSearchAppXF/MovieDetailPage.xaml" Line="13" Column="48" />
       <File FileName="MovieSearchAppXF/MovieDetailPage.xaml.cs" Line="10" Column="5" />
       <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieDetailPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.2-37/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.Debugging.targets" Line="1" Column="1" />
       <File FileName="../../../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.2-37/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
-      <File FileName="MovieSearchAppXF/TopRatedPage.xaml" Line="4" Column="5" />
-      <File FileName="MovieSearchAppXF/TopRatedPage.xaml.cs" Line="29" Column="34" />
-      <File FileName="MovieSearchAppXF/PopularPage.xaml" Line="19" Column="35" />
-      <File FileName="MovieSearchAppXF/PopularPage.xaml.cs" Line="29" Column="4" />
+      <File FileName="MovieSearchAppXF/TopRatedPage.xaml" Line="28" Column="3" />
+      <File FileName="MovieSearchAppXF/TopRatedPage.xaml.cs" Line="30" Column="1" />
+      <File FileName="MovieSearchAppXF/PopularPage.xaml" Line="26" Column="16" />
+      <File FileName="MovieSearchAppXF/PopularPage.xaml.cs" Line="47" Column="1" />
       <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.TopRatedPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.PopularPage.xaml.g.cs" Line="1" Column="1" />
       <File FileName="Droid/MainActivity.cs" Line="29" Column="1" />
-      <File FileName="iOS/Renderers/CustomCellRenderer.cs" Line="1" Column="1" />
+      <File FileName="iOS/Renderers/CustomCellRenderer.cs" Line="25" Column="4" />
+      <File FileName="MovieSearchAppXF/SearchhPage.xaml" Line="45" Column="40" />
+      <File FileName="MovieSearchAppXF/SearchhPage.xaml.cs" Line="11" Column="34" />
+      <File FileName="MovieSearchAppXF/obj/Debug/MovieSearchAppXF.SearchhPage.xaml.g.cs" Line="20" Column="45" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieSearchAppXF" expanded="True">
+            <Node name="MovieSearchAppXF" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MovieDetailPage.xaml" expanded="True" />
+              <Node name="MovieListPage.xaml" expanded="True" />
+              <Node name="PopularPage.xaml" expanded="True" />
+              <Node name="SearchhPage.xaml" expanded="True" selected="True" />
+              <Node name="TopRatedPage.xaml" expanded="True" />
+            </Node>
+            <Node name="MovieSearchAppXF.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

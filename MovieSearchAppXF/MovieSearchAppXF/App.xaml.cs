@@ -9,7 +9,7 @@ namespace MovieSearchAppXF
 		{
 			InitializeComponent();
 
-			var searchPage = new SearchPage(new List<Models.Movie>());
+			var searchPage = new SearchhPage(new List<Models.Movie>());
 			var searchNavigationPage = new NavigationPage(searchPage) { 
 				Icon = "search.png",
 				Title = "Search"

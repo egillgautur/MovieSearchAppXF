@@ -20,28 +20,30 @@ namespace MovieSearchAppXF
 			await this.Navigation.PushAsync(new MovieDetailPage() { BindingContext = e.SelectedItem });
 		}
 
-		protected override async void OnAppearing()
+		private async void loadData()
 		{
-			base.OnAppearing();
+			listview.IsVisible = false;
 			myIndicator.IsRunning = true;
+			myIndicator.IsVisible = true;
 			this._movieList = await _apiService.getMovie(false, "");
-			myIndicator.IsRunning = false;
-			myIndicator.IsVisible = false;
 			BindingContext = this._movieList;
-			//await this.Navigation.PushAsync(new MovieListPage() { BindingContext = this._movieList });
-		}
-
-		protected override void OnDisappearing()
-		{
-			base.OnDisappearing();
-
-			this._movieList.Clear();
+			listview.IsVisible = true;
+			myIndicator.IsVisible = false;
+			myIndicator.IsRunning = false;
 		}
 
 		public TopRatedPage(List<Models.Movie> movieList) {
 			InitializeComponent();
-			this._movieList = movieList;
-		}
 
+			this._movieList = movieList;
+
+			loadData();
+
+			listview.RefreshCommand = new Command(() =>
+			{
+				loadData();
+				listview.IsRefreshing = false;
+			});
+		}
 	}
 }

@@ -16,7 +16,6 @@ namespace MovieSearchAppXF.Services
 		{
 			IMovieDbImplement sett = new IMovieDbImplement();
 			MovieDbFactory.RegisterSettings(sett);
-			//this._imp = null;
 			this._movies = new Movies();
 
 		}
@@ -44,86 +43,103 @@ namespace MovieSearchAppXF.Services
 				}
 			}
 
-			//Iterate through all results that matched the search string
-			foreach (var item in response.Results)
+			/*if (response.Results == null) {
+				return await getMovie(searchValue, searchString);
+			}*/
+
+
+
+			if (response.Results != null)
 			{
-				string path = "http://image.tmdb.org/t/p/w92";
-				string castMembersString = "";
-				string genreString = "";
-				string runtimeString = "";
-				string overviewString = "";
-				int counter = 0;
-
-				//API call to get cast members
-				var castResponse = await movieApi.GetCreditsAsync(item.Id);
-
-				//Handling null exception
-				if (castResponse.Item != null)
+				//Iterate through all results that matched the search string
+				foreach (var item in response.Results)
 				{
-					var castMembers = castResponse.Item.CastMembers;
+					string path = "http://image.tmdb.org/t/p/w92";
+					string castMembersString = "";
+					string genreString = "";
+					string runtimeString = "";
+					string overviewString = "";
+					int counter = 0;
 
-					//String mix to get rid of ',' in the end of string and only show 3 cast members
-					foreach (var it in castMembers)
+					//API call to get cast members
+					var castResponse = await movieApi.GetCreditsAsync(item.Id);
+
+					//Handling null exception
+					if (castResponse.Item != null)
 					{
-						castMembersString += it.Name + ", ";
-						counter++;
+						if (castResponse.Item.CastMembers != null)
+						{
+							var castMembers = castResponse.Item.CastMembers;
 
-						if (counter == 3) { break; }
+							//String mix to get rid of ',' in the end of string and only show 3 cast members
+							foreach (var it in castMembers)
+							{
+								castMembersString += it.Name + ", ";
+								counter++;
 
+								if (counter == 3) { break; }
+
+							}
+
+							//Getting rid of ',' in the end of string
+							if (castMembersString != "")
+							{
+								castMembersString = castMembersString.Remove(castMembersString.Length - 2);
+							}
+						}
 					}
 
-					//Getting rid of ',' in the end of string
-					if (castMembersString != "")
+					//API call to get runtime, genres and overview
+					var detailsResponse = await movieApi.FindByIdAsync(item.Id);
+
+					//Handling null exception
+					if (detailsResponse.Item != null)
 					{
-						castMembersString = castMembersString.Remove(castMembersString.Length - 2);
+						if (detailsResponse.Item.Genres != null)
+						{
+							var genres = detailsResponse.Item.Genres;
+
+							//Adding all genres in one string
+							foreach (var iter in genres)
+							{
+								genreString += iter.Name + ", ";
+							}
+
+							//Getting rid of ',' in the end of string
+							if (genreString != "")
+							{
+								genreString = genreString.Remove(genreString.Length - 2);
+							}
+
+							if (detailsResponse.Item.Overview != null)
+							{
+								overviewString = detailsResponse.Item.Overview;
+							}
+							runtimeString = detailsResponse.Item.Runtime + " min";
+						}
 					}
+
+					/*	if (_imp != null)
+						{
+							path = await _imp.getImage(item.PosterPath);
+						}*/
+
+					path += item.PosterPath;
+
+					var movie = new Models.Movie()
+					{
+						Name = item.Title,
+						ReleaseYear = item.ReleaseDate.Year.ToString(),
+						ImageName = path,
+						CastMembers = castMembersString,
+						Genre = genreString,
+						Runtime = runtimeString,
+						Overview = overviewString,
+						InfoString = item.ReleaseDate.Year + " | " + runtimeString + " | " + genreString
+					};
+					this._movies.movieList.Add(movie);
 				}
-
-				//API call to get runtime, genres and overview
-				var detailsResponse = await movieApi.FindByIdAsync(item.Id);
-
-				//Handling null exception
-				if (detailsResponse.Item != null)
-				{
-					var genres = detailsResponse.Item.Genres;
-
-					//Adding all genres in one string
-					foreach (var iter in genres)
-					{
-						genreString += iter.Name + ", ";
-					}
-
-					//Getting rid of ',' in the end of string
-					if (genreString != "")
-					{
-						genreString = genreString.Remove(genreString.Length - 2);
-					}
-
-					runtimeString = detailsResponse.Item.Runtime + " min";
-					overviewString = detailsResponse.Item.Overview;
-				}
-
-				/*	if (_imp != null)
-					{
-						path = await _imp.getImage(item.PosterPath);
-					}*/
-
-				path += item.PosterPath;
-
-				var movie = new Models.Movie()
-				{
-					Name = item.Title,
-					ReleaseYear = item.ReleaseDate.Year.ToString(),
-					ImageName = path,
-					CastMembers = castMembersString,
-					Genre = genreString,
-					Runtime = runtimeString,
-					Overview = overviewString,
-					InfoString = item.ReleaseDate.Year + " | " + runtimeString + " | " + genreString
-				};
-				this._movies.movieList.Add(movie);
 			}
-
 			return _movies.movieList;
 		}
 	}

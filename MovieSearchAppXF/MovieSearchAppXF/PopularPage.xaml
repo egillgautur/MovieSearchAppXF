@@ -8,7 +8,8 @@
 		<flv:FlowListView FlowColumnCount="4" SeparatorVisibility="None" HasUnevenRows="true"
 			x:Name="flowlistview"
 			FlowItemTapped="OnImageSelected"
-			FlowItemsSource="{Binding}" >
+			FlowItemsSource="{Binding}"
+			IsPullToRefreshEnabled="true" >
 
 			<flv:FlowListView.FlowColumnTemplate>
 				<DataTemplate>

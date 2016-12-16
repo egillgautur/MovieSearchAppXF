@@ -4,11 +4,13 @@
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieDetailPage.xaml
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.TopRatedPage.xaml
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.PopularPage.xaml
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.SearchhPage.xaml
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.App.xaml.g.cs
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieListPage.xaml.g.cs
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.MovieDetailPage.xaml.g.cs
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.TopRatedPage.xaml.g.cs
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.PopularPage.xaml.g.cs
+/Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.SearchhPage.xaml.g.cs
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll.mdb
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/bin/Debug/MovieSearchAppXF.dll
 /Users/gautur/Desktop/MovieSearchXamarinForms/MovieSearchAppXF/MovieSearchAppXF/MovieSearchAppXF/obj/Debug/MovieSearchAppXF.dll

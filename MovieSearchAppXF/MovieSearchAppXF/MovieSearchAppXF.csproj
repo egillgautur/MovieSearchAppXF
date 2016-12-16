@@ -38,6 +38,9 @@
     <EmbeddedResource Include="PopularPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="SearchhPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -53,7 +56,6 @@
     <Compile Include="Interfaces\IMovieDbImplement.cs" />
     <Compile Include="Interfaces\IImageImplement.cs" />
     <Compile Include="SearchPage.cs" />
-    <Compile Include="Interfaces\PCLimageImplement.cs" />
     <Compile Include="MovieDetailPage.xaml.cs">
       <DependentUpon>MovieDetailPage.xaml</DependentUpon>
     </Compile>
@@ -62,6 +64,9 @@
     </Compile>
     <Compile Include="PopularPage.xaml.cs">
       <DependentUpon>PopularPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SearchhPage.xaml.cs">
+      <DependentUpon>SearchhPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
