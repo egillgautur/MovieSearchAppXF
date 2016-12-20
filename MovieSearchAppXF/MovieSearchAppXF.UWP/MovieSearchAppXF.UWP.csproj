@@ -7,8 +7,8 @@
     <ProjectGuid>{91BB8003-E1E0-4D70-B288-D345FBBDD89D}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>XFHelloWorld.UWP</RootNamespace>
-    <AssemblyName>XFHelloWorld.UWP</AssemblyName>
+    <RootNamespace>MovieSearchAppXF.UWP</RootNamespace>
+    <AssemblyName>MovieSearchAppXF.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
@@ -128,9 +128,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XFHelloWorld\XFHelloWorld.csproj">
+    <ProjectReference Include="..\MovieSearchAppXF\MovieSearchAppXF.csproj">
       <Project>{230bd11a-c423-4e6d-ab11-83028c9b99ee}</Project>
-      <Name>XFHelloWorld</Name>
+      <Name>MovieSearchAppXF</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
